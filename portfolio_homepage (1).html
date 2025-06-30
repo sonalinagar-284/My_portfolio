@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    #scrollToTopBtn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #22c55e;
+      color: #0b161f;
+      padding: 12px 15px;
+      border-radius: 50%;
+      display: none;
+      z-index: 1000;
+    }
+    #scrollToTopBtn:hover {
+      background-color: #4ade80;
+    }
+  </style>
+</head>
+<body class="bg-[#0b161f] text-white">
+  <!-- Header -->
+  <header class="max-w-7xl mx-auto px-6 sm:px-10 py-5 flex items-center justify-between" data-aos="fade-down">
+    <div class="flex items-center space-x-2">
+      <span class="text-green-500 font-semibold text-lg">SR&</span>
+      <span class="text-white font-semibold text-lg">N</span>
+    </div>
+    <nav class="hidden md:flex space-x-8 text-sm font-medium text-white/80">
+  <a href="#home" class="transition-all duration-300 hover:scale-105 hover:text-green-400">Home</a>
+  <a href="#about" class="transition-all duration-300 hover:scale-105 hover:text-green-400">About</a>
+  <a href="#services" class="transition-all duration-300 hover:scale-105 hover:text-green-400">Service</a>
+  <a href="#projects" class="transition-all duration-300 hover:scale-105 hover:text-green-400">Projects</a>
+  <a href="#contact" class="transition-all duration-300 hover:scale-105 hover:text-green-400">Contact</a>
+  
+</nav>
+    <a class="hidden md:inline-block bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded" href="#" data-aos="zoom-in">Get Started</a>
+    <button$1class="$2 transition-all duration-300 hover:scale-105"$3>
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-6 sm:px-10">
+    <!-- Hero Section -->
+    <section class="relative flex flex-col md:flex-row items-center md:items-start justify-between pt-10 md:pt-20 pb-20 md:pb-32" data-aos="fade-up">
+      <div class="max-w-xl md:max-w-lg lg:max-w-xl space-y-6">
+        <p class="text-green-500 font-semibold text-sm">Design. Code. Inspire. & Innovation</p>
+        <h1 class="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+          I design sleek, user-friendly websites and captivating visuals that bring brands to life.
+        </h1>
+        <p class="text-white/80 text-sm sm:text-base max-w-md">
+          Learn proven ways to work, communicate and design with data and behavioral insights to deliver an effective projects
+        </p>
+        <div class="flex space-x-4">
+          <a class="bg-green-500 hover:bg-green-600 text-white font-semibold text-sm px-5 py-2 rounded" href="#">Portfolio</a>
+          <a class="text-white/80 hover:text-white font-semibold text-sm border border-white/20 rounded px-5 py-2" href="#">About us</a>
+        </div>
+      </div>
+      <div class="mt-10 md:mt-0 relative w-48 h-64 md:w-72 md:h-96 flex-shrink-0" data-aos="zoom-in">
+        <img class="w-full h-full object-cover rounded-lg" src="me.jpg" alt="My Portrait" />
+        <img class="pointer-events-none absolute -right-10 top-1/2 translate-y-[-50%] opacity-40 animate-pulse" src="https://storage.googleapis.com/a1aa/image/2401d0f0-91d9-4a64-336a-3a45b2a00cd8.jpg" width="120" height="120" alt="Decoration" />
+        <img class="pointer-events-none absolute -right-20 bottom-10 opacity-40 animate-pulse" src="https://storage.googleapis.com/a1aa/image/2401d0f0-91d9-4a64-336a-3a45b2a00cd8.jpg" width="120" height="120" alt="Decoration" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="bg-[#0f1a23] rounded-lg p-6 md:p-10 mb-20 flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-10" data-aos="fade-up">
+  <div class="relative w-40 h-48 md:w-48 md:h-56 flex-shrink-0" data-aos="zoom-in">
+    <img alt="" class="w-full h-full object-cover rounded-lg border-4 border-green-600" src="beauty.jpg" />
+    <div aria-hidden="true" class="absolute -left-4 top-0 w-2 h-full bg-green-600 rounded-l-lg"></div>
+  </div>
+  <div class="max-w-xl text-white/90 space-y-4">
+    <p class="text-green-500 font-semibold text-xs md:text-sm uppercase" data-aos="fade-right">About Me</p>
+    <h2 class="text-white text-xl md:text-2xl font-bold leading-tight" data-aos="fade-right" data-aos-delay="100">Why Hire Me for Your Next Project?</h2>
+    <p class="text-white/80 text-sm md:text-base leading-relaxed" data-aos="fade-right" data-aos-delay="200">
+      You can engage me for your commercial projects or personal creative works. I work on projects that
+      require a high level of creativity and technical skills. I am passionate about delivering quality
+      products on time and within budget.
+    </p>
+    <a class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold text-sm px-5 py-2 rounded" href="#contact" data-aos="zoom-in" data-aos-delay="300">Learn More</a>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="mb-20 grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-4xl mx-auto text-center" data-aos="fade-up">
+  <div data-aos="zoom-in">
+    <svg class="mx-auto mb-2" fill="none" height="80" viewBox="0 0 36 36" width="80" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-opacity="0.3" stroke-width="3"></circle>
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-dasharray="100" stroke-dashoffset="11" stroke-linecap="round" stroke-width="3" transform="rotate(-90 18 18)"></circle>
+      <text fill="#22c55e" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="18" y="22">89%</text>
+    </svg>
+    <p class="text-xs text-white/80">Proofreading</p>
+  </div>
+  <div data-aos="zoom-in" data-aos-delay="100">
+    <svg class="mx-auto mb-2" fill="none" height="80" viewBox="0 0 36 36" width="80" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-opacity="0.3" stroke-width="3"></circle>
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-dasharray="100" stroke-dashoffset="21" stroke-linecap="round" stroke-width="3" transform="rotate(-90 18 18)"></circle>
+      <text fill="#22c55e" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="18" y="22">79%</text>
+    </svg>
+    <p class="text-xs text-white/80">Html , Css , & Js</p>
+  </div>
+  <div data-aos="zoom-in" data-aos-delay="200">
+    <svg class="mx-auto mb-2" fill="none" height="80" viewBox="0 0 36 36" width="80" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-opacity="0.3" stroke-width="3"></circle>
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-dasharray="100" stroke-dashoffset="33" stroke-linecap="round" stroke-width="3" transform="rotate(-90 18 18)"></circle>
+      <text fill="#22c55e" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="18" y="22">67%</text>
+    </svg>
+    <p class="text-xs text-white/80">Graphic design</p>
+  </div>
+  <div data-aos="zoom-in" data-aos-delay="300">
+    <svg class="mx-auto mb-2" fill="none" height="80" viewBox="0 0 36 36" width="80" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-opacity="0.3" stroke-width="3"></circle>
+      <circle cx="18" cy="18" r="16" stroke="#22c55e" stroke-dasharray="100" stroke-dashoffset="12" stroke-linecap="round" stroke-width="3" transform="rotate(-90 18 18)"></circle>
+      <text fill="#22c55e" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle" x="18" y="22">88%</text>
+    </svg>
+    <p class="text-xs text-white/80">Web Development</p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="max-w-6xl mx-auto mb-20 px-4 sm:px-0" data-aos="fade-up">
+  <h3 class="text-center text-white text-lg font-semibold mb-6">WHAT WE DO</h3>
+  <h2 class="text-center text-white text-2xl md:text-3xl font-bold mb-14">Service And Solutions</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-10 text-white/80 text-xs md:text-sm">
+    <div class="space-y-3 transition-all duration-300 hover:scale-[1.02] cursor-pointer" data-aos="fade-up" data-aos-delay="$1">
+      <i class="fas fa-bullseye text-green-500 text-3xl"></i>
+      <h4 class="text-white font-semibold text-sm">Presentations</h4>
+      <p>I design visually stunning and personalized PPTs and portfolios that leave a lasting impression.</p>
+    </div>
+    <div class="space-y-3" data-aos="fade-up" data-aos-delay="100">
+      <i class="fas fa-bullhorn text-green-500 text-3xl"></i>
+      <h4 class="text-white font-semibold text-sm">Personalized Portfolio</h4>
+      <p>Crafting personalized, standout portfolios that showcase your unique strengths.</p>
+    </div>
+    <div class="space-y-3" data-aos="fade-up" data-aos-delay="200">
+      <i class="fas fa-mobile-alt text-green-500 text-3xl"></i>
+      <h4 class="text-white font-semibold text-sm">Web Development</h4>
+      <p>We build user-friendly Web applications that provide seamless experiences across all devices.</p>
+    </div>
+    <div class="space-y-3" data-aos="fade-up" data-aos-delay="300">
+      <i class="fas fa-pencil-ruler text-green-500 text-3xl"></i>
+      <h4 class="text-white font-semibold text-sm">Creative Design</h4>
+      <p>I create visually stunning graphics and layouts that captivate your audience.</p>
+    </div>
+    <div class="space-y-3" data-aos="fade-up" data-aos-delay="400">
+      <i class="fas fa-server text-green-500 text-3xl"></i>
+      <h4 class="text-white font-semibold text-sm">Graphic & Designing</h4>
+      <p>Transforming ideas into impactful visuals through creative and purposeful design.</p>
+    </div>
+    <div class="space-y-3" data-aos="fade-up" data-aos-delay="500">
+      <i class="fas fa-code text-green-500 text-3xl"></i>
+      <h4 class="text-white font-semibold text-sm">Proofreading</h4>
+      <p>Ensuring your content is polished, error-free, and ready to impress.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="projects" class="max-w-6xl mx-auto mb-20 px-4 sm:px-0" data-aos="fade-up">
+  <h2 class="text-center text-white text-2xl md:text-3xl font-bold mb-10">My Projects</h2>
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- Project 1 -->
+    <div class="bg-[#1a1f2e] rounded-lg shadow-lg overflow-hidden p-4 transform transition-all duration-300 hover:scale-[1.02] cursor-pointer" data-aos="zoom-in">
+      <h3 class="text-white font-semibold text-lg mb-2">Modern Landing Page</h3>
+      <p class="text-white/70 text-sm">Responsive and animated landing page built using HTML, CSS, JS, Tailwind, and AOS.</p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="bg-[#1a1f2e] rounded-lg shadow-lg overflow-hidden p-4 transform transition-all duration-300 hover:scale-[1.02] cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
+      <h3 class="text-white font-semibold text-lg mb-2">Coffee Website</h3>
+      <p class="text-white/70 text-sm">Designed and built a sleek, responsive website for Bean & Brew café with a focus on user-friendly design.</p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="bg-[#1a1f2e] rounded-lg shadow-lg overflow-hidden p-4 transform transition-all duration-300 hover:scale-[1.02] cursor-pointer" data-aos="zoom-in" data-aos-delay="200">
+      <h3 class="text-white font-semibold text-lg mb-2">YouTube Thumbnail</h3>
+      <p class="text-white/70 text-sm">Designed an eye-catching YouTube thumbnail for a skincare video.</p>
+    </div>
+    
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="max-w-6xl mx-auto my-20 px-6 text-center" data-aos="fade-up">
+  <h2 class="text-white text-3xl md:text-4xl font-bold mb-4" data-aos="fade-down">Let's Build Something Great Together</h2>
+  <p class="text-white/80 max-w-2xl mx-auto text-base md:text-lg mb-8" data-aos="fade-up" data-aos-delay="100">
+    Have a project in mind? I'm here to turn your ideas into impactful designs and responsive websites that connect.
+    Let's create something you'll be proud to share.
+  </p>
+  <a href="mailto:youremail@example.com" class="inline-block bg-green-500 hover:bg-green-600 transition text-white font-semibold text-sm px-6 py-3 rounded-full" data-aos="zoom-in" data-aos-delay="200">Contact Me</a>
+</section>
+
+<!-- Stats section can come next -->
+  </main>
+
+  <!-- Scroll To Top Button -->
+  <button id="scrollToTopBtn" title="Go to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+    const scrollBtn = document.getElementById("scrollToTopBtn");
+    window.onscroll = function () {
+      scrollBtn.style.display = document.body.scrollTop > 300 || document.documentElement.scrollTop > 300 ? "block" : "none";
+    };
+    scrollBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
